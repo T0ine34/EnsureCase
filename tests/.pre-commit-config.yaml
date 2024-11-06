@@ -1,5 +1,6 @@
 repos:
 - repo: https://github.com/T0ine34/EnsureCase
-  rev: 46bce08
+  rev: 4098f8e
   hooks:
     - id: ensure-case-python
+      args: ["a.py", "b.py"]
