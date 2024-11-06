@@ -1,0 +1,6 @@
+- id: ensure-case-python
+  name: check for used naming conventions in Python code
+  description: This hook checks that the naming conventions are followed in Python code.
+  language: python
+  stages: [pre-commit, pre-push, manual]
+  entry: ensure-case-python

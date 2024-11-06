@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=42"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ensure-case"
+version = "{version}"
+description = ""
+
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent",
+]
+
+dependencies = []
+
+[project.scripts]
+ensure-case-python = "ensure_case.python.__main__:main"
