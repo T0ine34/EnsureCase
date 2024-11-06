@@ -4,3 +4,4 @@
   language: python
   stages: [pre-commit, pre-push, manual]
   entry: ensure-case-python
+  files: \.(py)$
